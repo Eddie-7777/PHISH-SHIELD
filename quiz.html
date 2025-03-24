@@ -1,0 +1,46 @@
+<!-- quiz.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Awareness Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="quiz.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Phishing Awareness Quiz</h1>
+        <p>See if you can spot the scams! Answer the questions below to test your phishing detection skills.</p>
+    </header>
+
+    <section id="quiz-container">
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. What’s a common sign of a phishing email?</p>
+                <label><input type="radio" name="q1" value="a"> A greeting that includes your full name</label><br>
+                <label><input type="radio" name="q1" value="b"> Urgent requests and strange spelling errors</label><br>
+                <label><input type="radio" name="q1" value="c"> Sent from your trusted contact list</label><br>
+            </div>
+
+            <div class="question">
+                <p>2. What should you do if you get an email with a suspicious link?</p>
+                <label><input type="radio" name="q2" value="a"> Click to check if it looks real</label><br>
+                <label><input type="radio" name="q2" value="b"> Report it and don’t click the link</label><br>
+                <label><input type="radio" name="q2" value="c"> Reply asking if it’s safe</label><br>
+            </div>
+
+            <div class="question">
+                <p>3. Which website URL is most likely a phishing attempt?</p>
+                <label><input type="radio" name="q3" value="a"> www.paypal.com</label><br>
+                <label><input type="radio" name="q3" value="b"> www.pay-pal-login.com</label><br>
+                <label><input type="radio" name="q3" value="c"> www.apple.com</label><br>
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+        </form>
+
+        <p id="quiz-result"></p>
+    </section>
+</body>
+</html>
