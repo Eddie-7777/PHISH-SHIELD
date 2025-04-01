@@ -1,0 +1,161 @@
+/* style.css */
+
+/* === General === */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1c1f2b;
+  color: #e8f0f8;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: #4db8ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #82d4ff;
+}
+
+/* === Header === */
+header {
+  background-color: #14213d;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+/* === Main Content === */
+main {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: #263040;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+h2, h3 {
+  color: #a6d4fa;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #3a4d63;
+  padding-bottom: 0.3rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  border-bottom: 1px solid #3a4d63;
+  padding-bottom: 0.2rem;
+}
+
+/* === Sections & Lists === */
+section {
+  margin-bottom: 2rem;
+}
+
+ol, ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.email-tips li::before {
+  content: url('https://cdn-icons-png.flaticon.com/16/2099/2099190.png');
+  margin-right: 0.5rem;
+}
+
+.web-tips li::before {
+  content: url('https://cdn-icons-png.flaticon.com/16/1041/1041916.png');
+  margin-right: 0.5rem;
+}
+
+.password-tips li::before {
+  content: url('https://cdn-icons-png.flaticon.com/16/3064/3064197.png');
+  margin-right: 0.5rem;
+}
+
+/* === Buttons === */
+button, .btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #339CFF;
+}
+
+/* === Tip Box === */
+#security-tip {
+  margin-top: 1em;
+  font-weight: bold;
+  background-color: #1e2a3a;
+  padding: 1em;
+  border-left: 4px solid #007BFF;
+  border-radius: 6px;
+  max-width: 600px;
+  color: #ffffff;
+}
+
+/* === Back to Top Button === */
+#backToTop {
+  display: block;
+  margin: 2rem auto 0;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+  background-color: #0b5ed7;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+#backToTop:hover {
+  background-color: #1a73e8;
+}
+
+/* === Footer === */
+footer {
+  background-color: #14213d;
+  color: #d0e4f5;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
