@@ -12,10 +12,6 @@ IP Address: 64.227.176.85
 Domain Name: phish-shield.agency
 Used Let's Encrypt free Certeficate for securing the website
 
- GitHub Repository Link
-https://github.com/Eddie-7777/PHISH-SHIELD
-
-
  Files Used
  `.gitattributes` — Git tracking file
  `exam.html` — Advanced phishing exam page
